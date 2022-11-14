@@ -1,11 +1,14 @@
+.clearfix::after{
+content: '';
+clear: both;
+display:block;
+}
 .container{ 
     width: 1200px;
     margin: 3% auto;
     background-color: rgb(176, 176, 176);
 }
-.row{ 
-    float: left;
-}
+
 .col-green{
     width: 400px;
     height: 400px;
